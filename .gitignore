@@ -1,0 +1,68 @@
+# ─── Sensitive interview media ────────────────────────────────────────────────
+# Raw footage, rendered videos and anything containing real people's voices
+# or faces are NEVER committed. This repo is source code only.
+media/
+exports/
+edits/
+analysis/
+transcripts/
+assets/
+
+# ─── Large model weights ──────────────────────────────────────────────────────
+models/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.bin
+*.safetensors
+
+# ─── Binary media / derived artefacts ────────────────────────────────────────
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.srt
+*.vtt
+*.ass
+
+# ─── Python / environment ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ─── Logs / temp / OS ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ─── Git / editor ─────────────────────────────────────────────────────────────
+.git/
+.vscode/
+.idea/
+
+# Keep the documentation assets that are text-based
+!README.md
+!requirements.txt
+!.gitignore
